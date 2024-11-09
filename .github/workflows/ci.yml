@@ -48,6 +48,6 @@ jobs:
       uses: sonarsource/sonarcloud-github-action@master
       with:
         args: >
-          -Dsonar.projectKey=your_project_key
-          -Dsonar.organization=your_organization
+          -Dsonar.projectKey=5b194a1abd274ed665d7e6a8749f8bd48292fe6d
+          -Dsonar.organization=lab3
           -Dsonar.host.url=https://sonarcloud.io

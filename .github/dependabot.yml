@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "maven" # или "gradle"
+    directory: "/" # директория с файлом сборки
+    schedule:
+      interval: "weekly"
